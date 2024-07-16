@@ -41,8 +41,6 @@ public class Convidado {
 
     @Override
     public String toString() {
-        return "Convidado = " + nome + ", codigo do Convite = " + codigoConvite + "\n";
-    }
-
-    
+        return "\nConvidado = " + nome + ", codigo do Convite = " + codigoConvite;
+    }    
 }
